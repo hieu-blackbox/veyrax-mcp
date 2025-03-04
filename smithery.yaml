@@ -1,0 +1,12 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required: 
+      - VEYRAX_API_KEY
+    properties:
+      VEYRAX_API_KEY:
+        type: string
+        description: "The API key from https://veyrax.com/agent"
+  commandFunction:
+    (config) => ({ command: 'node', args: ['dist/index.js'], env: { VEYRAX_API_KEY: config.VEYRAX_API_KEY } })
