@@ -23,7 +23,7 @@ export class ToolCallTool extends BaseTool {
   async execute({ tool, method, parameters }: z.infer<typeof this.schema>) {
     try {
       const { data } = await veyraxClient.post(
-        `/tool-call/${tool}/${method}`,
+        `/tool-call/${tool}/${method}?include_component=false`,
         parameters
       );
 
