@@ -21,7 +21,7 @@ export class GetFlowTool extends BaseTool {
 
   async execute({ flowId }: z.infer<typeof this.schema>) {
     try {
-      const { data } = await veyraxClient.get(`/get-flow/${flowId}`);
+      const { data } = await veyraxClient.get(`/flow/get-flow/${flowId}`);
 
       return {
         content: [
