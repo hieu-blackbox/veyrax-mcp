@@ -55,7 +55,7 @@ That’s it! You’ll now have instant access to every tool you’ve linked to V
 - **[Claude](https://docs.veyrax.com/mcp/claude)**  
   Use all your VeyraX-connected tools directly in Claude.
 
-- **[Windserf](https://docs.veyrax.com/mcp/windserf)**  
+- **[Windsurf](https://docs.veyrax.com/mcp/windsurf)**  
   Integrate with the Windserf IDE for a seamless coding experience.
 
 - **[VS Code](https://docs.veyrax.com/mcp/vscode)**  
